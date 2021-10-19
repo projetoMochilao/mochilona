@@ -1,0 +1,19 @@
+
+style inventory_label:
+    xalign 0.2
+
+style slot:
+    background Frame("square",0.0)
+    minimun(80,80)
+    maximun(80,80)
+    xalign 0.5
+
+screen inventory_screen:
+    style_prefix "inventory"
+
+    add "white"
+
+    textbutton "Return":
+        action Return()
+        xalign 0.5
+        yalign 0.95

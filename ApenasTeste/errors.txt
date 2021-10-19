@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/custom_screens.rpy", line 42: expected a keyword argument or end of line.
+    auto = %s"images/retorno.png"
+         ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Tue Oct 19 09:45:06 2021
