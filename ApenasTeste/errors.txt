@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/inventory_screen.rpy", line 49: frame expects a non-empty block.
+    if isinstance(selected_item, KeyItem):
+                                          ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Thu Oct 21 15:00:08 2021
