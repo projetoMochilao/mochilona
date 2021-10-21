@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/custom_screens.rpy", line 42: expected a keyword argument or end of line.
-    auto = %s"images/retorno.png"
-         ^
+File "game/inventory_screen.rpy", line 49: frame expects a non-empty block.
+    if isinstance(selected_item, KeyItem):
+                                          ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Oct 19 09:45:06 2021
+Thu Oct 21 15:00:08 2021

@@ -5,13 +5,11 @@ While running game code:
     $ ui.interact()
   File "renpy/common/00gamemenu.rpy", line 173, in <module>
     $ ui.interact()
-  File "game/custom_screens.rpy", line 10, in execute
-    screen StatsUI:
-  File "game/custom_screens.rpy", line 10, in execute
-    screen StatsUI:
-  File "game/custom_screens.rpy", line 37, in execute
-    imagebutton:
-Exception: Imagebutton does not have a idle image.
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/scripts/inventory.rpy", line 16, in use
+    target.addHP(self.hp_gain)
+AttributeError: 'Player' object has no attribute 'addHP'
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -28,37 +26,37 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3694, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/core.py", line 568, in visit_all
-    d.visit_all(callback, seen)
-  File "renpy/display/screen.py", line 432, in visit_all
-    callback(self)
-  File "renpy/display/core.py", line 3694, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "renpy/display/screen.py", line 443, in per_interact
-    self.update()
-  File "renpy/display/screen.py", line 631, in update
-    self.screen.function(**self.scope)
-  File "game/custom_screens.rpy", line 10, in execute
-    screen StatsUI:
-  File "game/custom_screens.rpy", line 10, in execute
-    screen StatsUI:
-  File "game/custom_screens.rpy", line 37, in execute
-    imagebutton:
-  File "renpy/ui.py", line 952, in _imagebutton
-    idle = choice(idle, idle_image, "idle", required=True)
-  File "renpy/ui.py", line 948, in choice
-    raise Exception("Imagebutton does not have a %s image." % (name,))
-Exception: Imagebutton does not have a idle image.
+  File "renpy/display/core.py", line 4110, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/transition.py", line 48, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 720, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/behavior.py", line 979, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 914, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 537, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/scripts/inventory.rpy", line 16, in use
+    target.addHP(self.hp_gain)
+AttributeError: 'Player' object has no attribute 'addHP'
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Tue Oct 19 09:44:01 2021
+Thu Oct 21 15:38:52 2021
