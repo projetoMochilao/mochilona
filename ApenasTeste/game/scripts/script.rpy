@@ -15,8 +15,9 @@ default escudo_item = KeyItem("escudo")
 default espada_item = KeyItem("espada")
 
 
+
 label start:
-    scene ruas
+    scene america
 
     # parte_inventário
     $inventory.append(arma1_item)
@@ -28,3 +29,6 @@ label start:
      
     show screen gameUI
     "Test"
+
+
+    

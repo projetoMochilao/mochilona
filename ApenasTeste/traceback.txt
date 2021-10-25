@@ -1,62 +1,38 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/common/00action_other.rpy", line 537, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/scripts/inventory.rpy", line 16, in use
-    target.addHP(self.hp_gain)
-AttributeError: 'Player' object has no attribute 'addHP'
+  File "renpy/common/00start.rpy", line 190, in script
+    python:
+  File "renpy/common/00start.rpy", line 191, in <module>
+    renpy.execute_default_statement(True)
+  File "game/scripts/script.rpy", line 10, in set_default
+    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
+  File "game/scripts/script.rpy", line 10, in <module>
+    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
+TypeError: __init__() takes exactly 5 arguments (6 given)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
+  File "renpy/common/00start.rpy", line 190, in script
+    python:
   File "renpy/ast.py", line 923, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "renpy/python.py", line 2235, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4110, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/transition.py", line 48, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/screen.py", line 720, in event
-    rv = self.child.event(ev, x, y, st)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/behavior.py", line 979, in event
-    return handle_click(self.clicked)
-  File "renpy/display/behavior.py", line 914, in handle_click
-    rv = run(action)
-  File "renpy/display/behavior.py", line 329, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 537, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/scripts/inventory.rpy", line 16, in use
-    target.addHP(self.hp_gain)
-AttributeError: 'Player' object has no attribute 'addHP'
+  File "renpy/common/00start.rpy", line 191, in <module>
+    renpy.execute_default_statement(True)
+  File "renpy/exports.py", line 3749, in execute_default_statement
+    i.set_default(start)
+  File "game/scripts/script.rpy", line 10, in set_default
+    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
+  File "renpy/python.py", line 2259, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/script.rpy", line 10, in <module>
+    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
+TypeError: __init__() takes exactly 5 arguments (6 given)
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Thu Oct 21 15:38:52 2021
+Mon Oct 25 08:27:06 2021

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/inventory_screen.rpy", line 49: frame expects a non-empty block.
-    if isinstance(selected_item, KeyItem):
-                                          ^
+File "game/scripts/inventory_screen.rpy", line 57: label expects a non-empty block.
+    label "[selected_item.img]":
+                                ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Oct 21 15:00:08 2021
+Mon Oct 25 08:36:16 2021
