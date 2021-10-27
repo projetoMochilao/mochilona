@@ -3,7 +3,6 @@ define e = Character("Eileen")
 
 # parte_inventário
 
-
 default inventory = []
 default selected_item = None
 default pc = Player(7, 5, 5, 1)
@@ -23,6 +22,7 @@ image bg paisagem4 = "images/Mapa/background4.jpg"
 
 label start:
     scene america1
+    show screen relogio
 
     # parte_inventário
     $inventory.append(arma1_item)
@@ -36,8 +36,10 @@ label start:
     "Test"
 
     call screen mapa
+
     if _return == "Brasil":
         jump cena1
+
     
     elif _return == "Chile":
         jump cena2

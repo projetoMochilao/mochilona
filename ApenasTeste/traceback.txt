@@ -1,38 +1,38 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 190, in script
-    python:
-  File "renpy/common/00start.rpy", line 191, in <module>
-    renpy.execute_default_statement(True)
-  File "game/scripts/script.rpy", line 10, in set_default
-    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
-  File "game/scripts/script.rpy", line 10, in <module>
-    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
-TypeError: __init__() takes exactly 5 arguments (6 given)
+  File "game/scripts/script.rpy", line 43, in script
+    init python:
+  File "game/scripts/script.rpy", line 43, in script
+    init python:
+  File "game/scripts/script.rpy", line 44, in <module>
+    AddTime(15)
+  File "game/scripts/relogio.rpy", line 6, in AddTime
+    minutos += valorMinutos
+UnboundLocalError: local variable 'minutos' referenced before assignment
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 190, in script
-    python:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 515, in main
+    renpy.game.context().run(node)
+  File "game/scripts/script.rpy", line 43, in script
+    init python:
+  File "game/scripts/script.rpy", line 43, in script
+    init python:
   File "renpy/ast.py", line 923, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "renpy/python.py", line 2235, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 191, in <module>
-    renpy.execute_default_statement(True)
-  File "renpy/exports.py", line 3749, in execute_default_statement
-    i.set_default(start)
-  File "game/scripts/script.rpy", line 10, in set_default
-    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scripts/script.rpy", line 10, in <module>
-    default arma1_item = Consumable("arma1", 50, 100, 0, "pistola")
-TypeError: __init__() takes exactly 5 arguments (6 given)
+  File "game/scripts/script.rpy", line 44, in <module>
+    AddTime(15)
+  File "game/scripts/relogio.rpy", line 6, in AddTime
+    minutos += valorMinutos
+UnboundLocalError: local variable 'minutos' referenced before assignment
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Mon Oct 25 08:27:06 2021
+Wed Oct 27 13:21:12 2021

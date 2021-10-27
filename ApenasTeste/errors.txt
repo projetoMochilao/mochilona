@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/relogio.rpy", line 5: invalid syntax
-    screen relogio:
-                  ^
-    
+File "game/scripts/script.rpy", line 42: expected statement.
+    AddTime(15)
+               ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Oct 27 10:55:33 2021
+Wed Oct 27 13:20:28 2021
