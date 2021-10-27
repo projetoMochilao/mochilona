@@ -1,68 +1,24 @@
-Mon Oct 25 08:36:15 2021
+Wed Oct 27 10:55:33 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.06s
-Early init took 0.01s
-Loader init took 0.01s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/scripts/inventory_screen.rpy", line 57: label expects a non-empty block.
-    label "[selected_item.img]":
-                                ^
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.30s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce MX230/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 462.31'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 11.50s
+Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.09s
+Loading error handling took 0.03s
+Loading script took 0.23s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\ApenasTeste':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
+
+File "game/scripts/relogio.rpy", line 5: invalid syntax
+    screen relogio:
+                  ^
+    
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.05s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.08s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
+Interface start took 0.34s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
