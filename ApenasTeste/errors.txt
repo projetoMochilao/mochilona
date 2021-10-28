@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/script.rpy", line 42: expected statement.
-    AddTime(15)
-               ^
+File "game/scripts/audio.rpy", line 30: u'play' is not a keyword argument or valid child for the screen statement.
+    play music "selected_item.file"
+        ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Oct 27 13:20:28 2021
+Thu Oct 28 09:05:47 2021

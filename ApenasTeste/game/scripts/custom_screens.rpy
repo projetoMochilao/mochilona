@@ -5,4 +5,5 @@ screen gameUI:
         xoffset -30
         yoffset 30
         idle "images/botao.png"
-        action ShowMenu("inventory_screen")
+        action ShowMenu("audio_screen")
+        #action ShowMenu("inventory_screen")
