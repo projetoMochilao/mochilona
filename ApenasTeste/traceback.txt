@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While loading <'Image' u'gui/overlay/confirm.png'>:
+IOError: [Errno 2] No such file or directory: u'A:\\GitHub\\mochilona\\mochilona\\ApenasTeste/game\\saves\\persistent.1635422681.tmp'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 620, in main
+    renpy.persistent.update(True)
+  File "renpy/persistent.py", line 393, in update
+    save()
+  File "renpy/persistent.py", line 409, in save
+    renpy.loadsave.location.save_persistent(data)
+  File "renpy/savelocation.py", line 485, in save_persistent
+    l.save_persistent(data)
+  File "renpy/savelocation.py", line 341, in save_persistent
+    with open(fn_tmp, "wb") as f:
+IOError: [Errno 2] No such file or directory: u'A:\\GitHub\\mochilona\\mochilona\\ApenasTeste/game\\saves\\persistent.1635422681.tmp'
+
+Windows-10-10.0.19041
+Ren'Py 7.4.8.1895
+ApenasTeste 1.0
+Thu Oct 28 09:16:17 2021

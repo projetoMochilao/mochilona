@@ -3,31 +3,38 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
 
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    show Iara happy
 
-    show eileen happy
 
-    # These display lines of dialogue.
+    "Iara coloca sua mochila no banco de traz do carro de sua mãe"
 
-    e "You've created a new Ren'Py game."
+    Iracema "Tudo pronto?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    Iara "Sim, está tudo em ordem."
 
-    # This ends the game.
+    Iracema "Você tem certeza que não esqueceu de nada?"
 
-    return
+    Iracema "Telefone? Protetor solar? Repelente? Tá levando roupa o suficiente? E o carregador do telefone? Tem certeza que o clima vai tá bom? E..."
+
+    Iara "Mãe, se acalma."
+
+    Iara "Eu já revisei tudo que eu necessitava para a viagem."
+
+    Iara "Vai ficar tudo bem."
+
+    Iracema "Certo, certo. Me desculpa."
+
+    Iracema "É que eu to meio nervosa, só isso."
+
+    Iara "Mãe, eu já te falei, não precisa se preocupar, eu vou ficar bem"
+
+    "As duas entram no carro e vão em direção ao aeroporto de Florianópolis, durante a viagem as duas ficam em silêncio, o único som sendo o rádio tocando."
+
+    jump Aeroporto1
