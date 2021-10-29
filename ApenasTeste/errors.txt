@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/audio.rpy", line 30: u'play' is not a keyword argument or valid child for the screen statement.
-    play music "selected_item.file"
-        ^
+File "game/scripts/audio.rpy", line 10: expected statement.
+    renpy.get_return_stack()
+                            ^
+
+File "game/scripts/audio.rpy", line 14: expected statement.
+    renpy.get_return_stack()
+                            ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Oct 28 09:05:47 2021
+Fri Oct 29 11:20:50 2021

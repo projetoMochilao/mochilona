@@ -15,9 +15,6 @@ default faca_item = KeyItem("faca")
 default escudo_item = KeyItem("escudo")
 default espada_item = KeyItem("espada")
 
-default music1 = AudioPlay("Musica 1", "audio/Music1.mp3")
-default music2 = AudioPlay("Musica 2", "audio/Music2.mp3")
-
 image bg paisagem1 = "images/Mapa/background1.jpg"
 image bg paisagem2 = "images/Mapa/background2.jpg"
 image bg paisagem3 = "images/Mapa/background3.jpg"
@@ -28,8 +25,6 @@ label start:
     scene america1
     show screen relogio
 
-    $listMusic.append(music1)
-    $listMusic.append(music2)
 
     # parte_inventário
     $inventory.append(arma1_item)
@@ -45,8 +40,7 @@ label start:
     call screen mapa
 
     if _return == "Brasil":
-        jump cena1
-
+        jump AudioSelect
     
     elif _return == "Chile":
         jump cena2

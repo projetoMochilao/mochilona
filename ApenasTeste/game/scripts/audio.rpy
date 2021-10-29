@@ -1,41 +1,15 @@
-init python:
 
-    class AudioPlay:
-        def __init__(self, name, file):
-            self.name = name
-            self.file = file
+label AudioSelect:
 
-screen audio_screen:
-    style_prefix "listAudio"
+    scene Musica
 
-    add "white"
-    hbox:
+    menu Audio:
+        "Opções de musica"
+        "Musica1":
+            play music "audio/Music1.mp3"
+            renpy.get_return_stack()
+            
+        "Musica2":
+            play music "audio/Music2.mp3"
+            renpy.get_return_stack()
 
-        vbox:
-            xmaximum 500
-            xminimum 500
-            spacing 5
-            text "Lista de Musicas:"
-            for som in listMusic:
-                textbutton "- [som.name]" action SetVariable("selected_item", som)
-        
-
-    imagemap:
-            ground "images/Mapa/Botoes.png"
-            #hover - imagem quando o mause esta por cima
-
-            hotspot(669,254,52,50) action Return("play")
-    
-    textbutton "Retornar":
-        action Return()
-        xalign 0.5
-        yalign 0.95
-
-if _return == "play":
-    play music "selected_item.file"
-
-
-
-                
-
-    
