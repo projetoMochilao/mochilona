@@ -2,13 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/scripts/audio.rpy", line 10: expected statement.
-    renpy.get_return_stack()
-                            ^
+File "game/scripts/script.rpy", line 59: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
 
-File "game/scripts/audio.rpy", line 14: expected statement.
-    renpy.get_return_stack()
-                            ^
+File "game/scripts/script.rpy", line 70: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
+
+File "game/scripts/script.rpy", line 81: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
+
+File "game/scripts/script.rpy", line 92: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
+
+File "game/scripts/script.rpy", line 103: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
+
+File "game/scripts/script.rpy", line 114: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    if (horas >= 24):
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Oct 29 11:20:50 2021
+Fri Oct 29 22:54:21 2021

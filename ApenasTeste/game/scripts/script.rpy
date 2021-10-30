@@ -25,7 +25,6 @@ label start:
     scene america1
     show screen relogio
 
-
     # parte_inventário
     $inventory.append(arma1_item)
     $inventory.append(arma2_item)
@@ -40,7 +39,7 @@ label start:
     call screen mapa
 
     if _return == "Brasil":
-        jump AudioSelect
+        jump cena1
     
     elif _return == "Chile":
         jump cena2
@@ -53,31 +52,67 @@ label start:
 label cena1:
     scene ruas
     "Brasil"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena4
 
 label cena2:
     scene ruas
     "Chile"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena5
 
 label cena3:
     scene ruas
     "Argentina"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena6
 
 label cena4:
     scene bg paisagem1
     "TESTE - CENA 4"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena7
 
 label cena5:
     scene bg paisagem2
     "TESTE - CENA 5"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena7
 
 label cena6:
     scene bg paisagem3
     "TESTE - CENA 6"
+    $minutos += 15
+    if (minutos >= 60):
+            $minutos -= 60
+            $horas += 1
+            if (horas >= 24):
+                $horas = 0
     jump cena7
 
 label cena7:
