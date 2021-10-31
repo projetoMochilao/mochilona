@@ -2,29 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/script.rpy", line 59: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
-
-File "game/scripts/script.rpy", line 70: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
-
-File "game/scripts/script.rpy", line 81: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
-
-File "game/scripts/script.rpy", line 92: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
-
-File "game/scripts/script.rpy", line 103: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
-
-File "game/scripts/script.rpy", line 114: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    if (horas >= 24):
-    ^
+File "game/scripts/menu.rpy", line 23: u'call' is not a keyword argument or valid child for the screen statement.
+    call screen inventory_screen
+        ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Oct 29 22:54:21 2021
+Sun Oct 31 10:30:55 2021

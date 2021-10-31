@@ -1,44 +1,71 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-IOError: Couldn't find file 'Music1.mp3'.
+  File "game/scripts/script.rpy", line 37, in script
+    "Test"
+  File "game/scripts/relogio.rpy", line 17, in execute
+    screen relogio:
+  File "game/scripts/relogio.rpy", line 17, in execute
+    screen relogio:
+  File "game/scripts/relogio.rpy", line 18, in execute
+    text "{color=#ff0}{size=+20}[horas] : [minutos] - '[days[day]]'{/size}{/color}" xalign 0.02 yalign 0.05
+TypeError: list indices must be integers, not unicode
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
+  File "game/scripts/script.rpy", line 37, in script
+    "Test"
+  File "renpy/ast.py", line 716, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1223, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 875, in do_display
+    **display_args)
+  File "renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3730, in interact_core
-    renpy.audio.audio.interact()
-  File "renpy/audio/audio.py", line 1185, in interact
-    periodic()
-  File "renpy/audio/audio.py", line 1138, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1116, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1058, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 512, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'Music1.mp3'.
+  File "renpy/display/core.py", line 3694, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 568, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3694, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/scripts/relogio.rpy", line 17, in execute
+    screen relogio:
+  File "game/scripts/relogio.rpy", line 17, in execute
+    screen relogio:
+  File "game/scripts/relogio.rpy", line 18, in execute
+    text "{color=#ff0}{size=+20}[horas] : [minutos] - '[days[day]]'{/size}{/color}" xalign 0.02 yalign 0.05
+  File "renpy/text/text.py", line 1551, in __init__
+    self.set_text(text, scope, substitute)
+  File "renpy/text/text.py", line 1670, in set_text
+    i, did_sub = renpy.substitutions.substitute(i, scope, substitute)
+  File "renpy/substitutions.py", line 270, in substitute
+    s = formatter.vformat(s, (), kwargs)
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 563, in vformat
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 585, in _vformat
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 654, in get_field
+  File "renpy/python.py", line 992, in __getitem__
+    rv = list.__getitem__(self, index)
+TypeError: list indices must be integers, not unicode
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Fri Oct 29 11:05:09 2021
+Sun Oct 31 10:04:24 2021

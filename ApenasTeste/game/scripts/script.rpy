@@ -33,8 +33,23 @@ label start:
     $inventory.append(escudo_item)
     $inventory.append(espada_item)
      
-    show screen gameUI
+    
     "Test"
+
+    call screen gameUI
+
+    if _return == "inventario":
+        call screen inventory_screen
+
+    elif _return == "lembrancas":
+        call screen inventory_screen
+
+    elif _return == "musica":
+        call screen inventory_screen
+
+    elif _return == "menu":
+        call screen inventory_screen
+
 
     call screen mapa
 
@@ -48,8 +63,27 @@ label start:
         jump cena3
 
 
+
+
+
     
 label cena1:
+
+    call screen gameUI
+
+    if _return == "inventario":
+        call screen inventory_screen
+
+    elif _return == "lembrancas":
+        call screen inventory_screen
+
+    elif _return == "musica":
+        call screen inventory_screen
+
+    elif _return == "menu":
+        call screen inventory_screen
+
+
     scene ruas
     "Brasil"
     $minutos += 15
@@ -60,7 +94,29 @@ label cena1:
                 $horas = 0
     jump cena4
 
+
+
+
+
+
+
+
 label cena2:
+
+    call screen gameUI
+
+    if _return == "inventario":
+        call screen inventory_screen
+
+    elif _return == "lembrancas":
+        call screen inventory_screen
+
+    elif _return == "musica":
+        call screen inventory_screen
+
+    elif _return == "menu":
+        call screen inventory_screen
+
     scene ruas
     "Chile"
     $minutos += 15
@@ -71,7 +127,32 @@ label cena2:
                 $horas = 0
     jump cena5
 
+
+
+
+
+
+
+
+
+
 label cena3:
+
+    call screen gameUI
+
+    if _return == "inventario":
+        call screen inventory_screen
+
+    elif _return == "lembrancas":
+        call screen inventory_screen
+
+    elif _return == "musica":
+        call screen inventory_screen
+
+    elif _return == "menu":
+        call screen inventory_screen
+
+
     scene ruas
     "Argentina"
     $minutos += 15
@@ -82,7 +163,27 @@ label cena3:
                 $horas = 0
     jump cena6
 
+
+
+
+
+
+
+
+
+
 label cena4:
+
+    show screen gameUI
+    if _return == "inventario":
+        call screen inventory_screen
+    if _return == "lembrancas":
+        call screen inventory_screen
+    if _return == "musica":
+        call screen inventory_screen
+    if _return == "menu":
+        call screen inventory_screen
+
     scene bg paisagem1
     "TESTE - CENA 4"
     $minutos += 15
@@ -93,7 +194,24 @@ label cena4:
                 $horas = 0
     jump cena7
 
+
+
+
+
+
+
 label cena5:
+
+    show screen gameUI
+    if _return == "inventario":
+        call screen inventory_screen
+    if _return == "lembrancas":
+        call screen inventory_screen
+    if _return == "musica":
+        call screen inventory_screen
+    if _return == "menu":
+        call screen inventory_screen
+
     scene bg paisagem2
     "TESTE - CENA 5"
     $minutos += 15
@@ -104,7 +222,26 @@ label cena5:
                 $horas = 0
     jump cena7
 
+
+
+
+
+
+
+
+
 label cena6:
+
+    show screen gameUI
+    if _return == "inventario":
+        call screen inventory_screen
+    if _return == "lembrancas":
+        call screen inventory_screen
+    if _return == "musica":
+        call screen inventory_screen
+    if _return == "menu":
+        call screen inventory_screen
+
     scene bg paisagem3
     "TESTE - CENA 6"
     $minutos += 15
@@ -121,11 +258,8 @@ label cena7:
     
 
 
-screen mapa:
-    imagemap:
-        ground "images/Mapa/Botoes.png"
-        #hover - imagem quando o mause esta por cima
 
-        hotspot(669,254,52,50) action Return("Brasil")
-        hotspot(471,248,53,56) action Return("Chile")
-        hotspot(563,421,53,53) action Return("Argentina")
+
+
+
+

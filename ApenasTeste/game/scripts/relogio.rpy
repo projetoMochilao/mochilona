@@ -1,6 +1,8 @@
 init python:
     horas = 9
     minutos = 15
+    days = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"]
+    day = 0
 
     def AddTime(valorMinutos):
             minutos += valorMinutos
@@ -9,6 +11,7 @@ init python:
                 horas += 1
                 if horas >= 24:
                     horas = 0
+
 
 
 screen relogio:
