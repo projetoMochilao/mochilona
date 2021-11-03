@@ -1,31 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/script.rpy", line 37, in script
-    "Test"
-  File "game/scripts/relogio.rpy", line 17, in execute
-    screen relogio:
-  File "game/scripts/relogio.rpy", line 17, in execute
-    screen relogio:
-  File "game/scripts/relogio.rpy", line 18, in execute
-    text "{color=#ff0}{size=+20}[horas] : [minutos] - '[days[day]]'{/size}{/color}" xalign 0.02 yalign 0.05
+  File "game/scripts/script.rpy", line 40, in script
+    call screen daily_screen
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/scripts/diario/daily.rpy", line 10, in execute
+    screen daily_screen:
+  File "game/scripts/diario/daily.rpy", line 10, in execute
+    screen daily_screen:
+  File "game/scripts/diario/daily.rpy", line 15, in execute
+    hbox:
 TypeError: list indices must be integers, not unicode
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/script.rpy", line 37, in script
-    "Test"
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "game/scripts/script.rpy", line 40, in script
+    call screen daily_screen
+  File "renpy/ast.py", line 2010, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 1998, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3132, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3276, in interact
@@ -46,14 +48,14 @@ Full traceback:
     self.update()
   File "renpy/display/screen.py", line 631, in update
     self.screen.function(**self.scope)
-  File "game/scripts/relogio.rpy", line 17, in execute
-    screen relogio:
-  File "game/scripts/relogio.rpy", line 17, in execute
-    screen relogio:
-  File "game/scripts/relogio.rpy", line 18, in execute
-    text "{color=#ff0}{size=+20}[horas] : [minutos] - '[days[day]]'{/size}{/color}" xalign 0.02 yalign 0.05
-  File "renpy/text/text.py", line 1551, in __init__
-    self.set_text(text, scope, substitute)
+  File "game/scripts/diario/daily.rpy", line 10, in execute
+    screen daily_screen:
+  File "game/scripts/diario/daily.rpy", line 10, in execute
+    screen daily_screen:
+  File "game/scripts/diario/daily.rpy", line 15, in execute
+    hbox:
+  File "renpy/text/text.py", line 1646, in _scope
+    return self.set_text(self.text_parameter, scope, self.substitute, update)
   File "renpy/text/text.py", line 1670, in set_text
     i, did_sub = renpy.substitutions.substitute(i, scope, substitute)
   File "renpy/substitutions.py", line 270, in substitute
@@ -68,4 +70,4 @@ TypeError: list indices must be integers, not unicode
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Sun Oct 31 10:04:24 2021
+Wed Nov  3 07:27:03 2021

@@ -22,6 +22,12 @@ screen inventory_screen:
             label "Level: [pc.level]"
             label "HP: [pc.hp]/[pc.max_hp]"
             label "MP: [pc.mp]/[pc.max_mp]"
+
+            textbutton "Diario":
+                action ShowMenu("daily_screen1")
+                xalign 0.5
+                yalign 0.95
+                
             
         #inventory grid
 

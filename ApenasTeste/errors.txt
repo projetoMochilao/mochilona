@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/menu.rpy", line 23: u'call' is not a keyword argument or valid child for the screen statement.
-    call screen inventory_screen
-        ^
+File "game/scripts/diario/daily.rpy", line 13: u'scene' is not a keyword argument or valid child for the screen statement.
+    scene "bg daily"
+         ^
+
+File "game/scripts/diario/daily.rpy", line 56: u'scene' is not a keyword argument or valid child for the screen statement.
+    scene "bg daily"
+         ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Oct 31 10:30:55 2021
+Wed Nov  3 07:57:45 2021

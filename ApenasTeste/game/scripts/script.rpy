@@ -19,6 +19,9 @@ image bg paisagem1 = "images/Mapa/background1.jpg"
 image bg paisagem2 = "images/Mapa/background2.jpg"
 image bg paisagem3 = "images/Mapa/background3.jpg"
 image bg paisagem4 = "images/Mapa/background4.jpg"
+image bg daily = "images/diario/diario.jpg"
+image left_arrow = "images/diario/leftArrow.png"
+image right_arrow = "images/diario/rightArrow.png"
 
 
 label start:
@@ -38,19 +41,6 @@ label start:
 
     call screen gameUI
 
-    if _return == "inventario":
-        call screen inventory_screen
-
-    elif _return == "lembrancas":
-        call screen inventory_screen
-
-    elif _return == "musica":
-        call screen inventory_screen
-
-    elif _return == "menu":
-        call screen inventory_screen
-
-
     call screen mapa
 
     if _return == "Brasil":
@@ -63,26 +53,8 @@ label start:
         jump cena3
 
 
-
-
-
     
 label cena1:
-
-    call screen gameUI
-
-    if _return == "inventario":
-        call screen inventory_screen
-
-    elif _return == "lembrancas":
-        call screen inventory_screen
-
-    elif _return == "musica":
-        call screen inventory_screen
-
-    elif _return == "menu":
-        call screen inventory_screen
-
 
     scene ruas
     "Brasil"
@@ -102,20 +74,6 @@ label cena1:
 
 
 label cena2:
-
-    call screen gameUI
-
-    if _return == "inventario":
-        call screen inventory_screen
-
-    elif _return == "lembrancas":
-        call screen inventory_screen
-
-    elif _return == "musica":
-        call screen inventory_screen
-
-    elif _return == "menu":
-        call screen inventory_screen
 
     scene ruas
     "Chile"
@@ -138,21 +96,6 @@ label cena2:
 
 label cena3:
 
-    call screen gameUI
-
-    if _return == "inventario":
-        call screen inventory_screen
-
-    elif _return == "lembrancas":
-        call screen inventory_screen
-
-    elif _return == "musica":
-        call screen inventory_screen
-
-    elif _return == "menu":
-        call screen inventory_screen
-
-
     scene ruas
     "Argentina"
     $minutos += 15
@@ -174,16 +117,6 @@ label cena3:
 
 label cena4:
 
-    show screen gameUI
-    if _return == "inventario":
-        call screen inventory_screen
-    if _return == "lembrancas":
-        call screen inventory_screen
-    if _return == "musica":
-        call screen inventory_screen
-    if _return == "menu":
-        call screen inventory_screen
-
     scene bg paisagem1
     "TESTE - CENA 4"
     $minutos += 15
@@ -201,16 +134,6 @@ label cena4:
 
 
 label cena5:
-
-    show screen gameUI
-    if _return == "inventario":
-        call screen inventory_screen
-    if _return == "lembrancas":
-        call screen inventory_screen
-    if _return == "musica":
-        call screen inventory_screen
-    if _return == "menu":
-        call screen inventory_screen
 
     scene bg paisagem2
     "TESTE - CENA 5"
@@ -231,16 +154,6 @@ label cena5:
 
 
 label cena6:
-
-    show screen gameUI
-    if _return == "inventario":
-        call screen inventory_screen
-    if _return == "lembrancas":
-        call screen inventory_screen
-    if _return == "musica":
-        call screen inventory_screen
-    if _return == "menu":
-        call screen inventory_screen
 
     scene bg paisagem3
     "TESTE - CENA 6"

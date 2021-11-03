@@ -1,14 +1,4 @@
-
-screen menu:
-    imagemap:
-        ground "images/Prancheta1.png"
-        #hover - imagem quando o mause esta por cima
-
-        hotspot(349,79,229,189) action Return("inventario")
-        hotspot(765,81,230,188) action Return("lembrancas")
-        hotspot(350,386,232,188) action Return("musica")
-        hotspot(769,388,227,189) action Return("menu")
-    
+   
 screen mapa:
     imagemap:
         ground "images/Mapa/Botoes.png"
