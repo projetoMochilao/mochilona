@@ -1,9 +1,8 @@
 
 label Aeroporto1:
 
-    scene bg room
-
-    show Iara happy
+    scene bg AirPlane outside
+    show Iara yellow happy
     
     "Chegando ao aeroporto, Iara pega sua mochila no banco de traz do carro, as duas entram no saguão do aeroporto."
 

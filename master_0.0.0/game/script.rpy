@@ -8,10 +8,9 @@
 
 label start:
 
-    scene bg room
-
-    show Iara happy
-
+    scene bg bedroom1
+    show Iara yellow happy
+    play music "music/music_rain.mp3"
 
     "Iara coloca sua mochila no banco de traz do carro de sua mãe"
 
