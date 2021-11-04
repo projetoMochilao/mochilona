@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/diario/daily.rpy", line 13: u'scene' is not a keyword argument or valid child for the screen statement.
-    scene "bg daily"
-         ^
-
-File "game/scripts/diario/daily.rpy", line 56: u'scene' is not a keyword argument or valid child for the screen statement.
-    scene "bg daily"
-         ^
+File "game/scripts/diario/daily.rpy", line 22: Line is indented, but the preceding spacing statement does not expect a block. Please check this line's indentation.
+    label "Willian" xalign 0.5
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov  3 07:57:45 2021
+Wed Nov  3 20:56:08 2021

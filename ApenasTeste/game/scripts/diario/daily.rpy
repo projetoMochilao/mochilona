@@ -1,5 +1,7 @@
 init python:
 
+    diario_index = 0
+
     daily_thing = [
         "Willian",
         "18",
@@ -52,8 +54,7 @@ screen daily_screen2:
     style_prefix "daily"
 
     
-
-    add "bg daily"
+    
 
     hbox:
         vbox:
@@ -64,9 +65,11 @@ screen daily_screen2:
             label "20 anos"  xalign 0.5
         
         vbox:
-            xmaximum 500
-            xminimum 500
-            label "ir since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." xalign 0.5 yalign 0.5
+            xmaximum 400
+            xminimum 400
+            label "ir since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.":
+                xalign 0.5 
+                yalign 0.5
         
                 
     textbutton "Retornar":
