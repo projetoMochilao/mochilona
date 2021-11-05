@@ -33,12 +33,12 @@ screen daily_screen1:
             xmaximum 550
             xminimum 550
             spacing 20
-            label "Pagina 1" xalign 0.5 yalign 0.5
+            text "Pagina 1" align (0.5, 0.5) xpos 320 ypos 90
         
         vbox:
-            xmaximum 500
-            xminimum 500
-            label "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." xalign 0.5 yalign 0.5
+            xmaximum 400
+            xminimum 400
+            text "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." align (0.5, 0.5) xpos 250 ypos 300
         
                 
     textbutton "Retornar":
@@ -74,25 +74,23 @@ screen daily_screen2:
         vbox:
             textbutton "Pagina1":
                 action ShowMenu("daily_screen1")
-            textbutton "Pagina1":
+            textbutton "Pagina2":
                 action ShowMenu("daily_screen2")
-            textbutton "Pagina1":
+            textbutton "Pagina3":
                 action ShowMenu("daily_screen3")
-            textbutton "Pagina1":
+            textbutton "Pagina4":
                 action ShowMenu("daily_screen4")
 
         vbox:
             xmaximum 550
             xminimum 550
             spacing 20
-            label "Pagina 2" xalign 0.5
+            text "Pagina 2" align (0.5, 0.5) xpos 320 ypos 90
         
         vbox:
             xmaximum 400
             xminimum 400
-            label "ir since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.":
-                xalign 0.5 
-                yalign 0.5
+            text "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." align (0.5, 0.5) xpos 250 ypos 300
         
                 
 #    textbutton "Retornar":
@@ -131,12 +129,12 @@ screen daily_screen3:
             xmaximum 550
             xminimum 550
             spacing 20
-            label "Pagina 3" xalign 0.5 yalign 0.5
+            text "Pagina 3" align (0.5, 0.5) xpos 320 ypos 90
         
         vbox:
-            xmaximum 500
-            xminimum 500
-            label "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." xalign 0.5 yalign 0.5
+            xmaximum 400
+            xminimum 400
+            text "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." align (0.5, 0.5) xpos 250 ypos 300
         
                 
     textbutton "Retornar":
@@ -171,12 +169,12 @@ screen daily_screen4:
             xmaximum 550
             xminimum 550
             spacing 20
-            label "Pagina 4" xalign 0.5 yalign 0.5
+            text "Pagina 4" align (0.5, 0.5) xpos 320 ypos 90
         
         vbox:
-            xmaximum 500
-            xminimum 500
-            label "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." xalign 0.5 yalign 0.5
+            xmaximum 400
+            xminimum 400
+            text "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." align (0.5, 0.5) xpos 250 ypos 300
         
                 
     textbutton "Retornar":

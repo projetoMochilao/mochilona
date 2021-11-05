@@ -27,6 +27,7 @@ image right_arrow = "images/diario/rightArrow.png"
 label start:
     scene america1
     show screen relogio
+    play music "../audio/Music2.mp3"
 
     # parte_inventário
     $inventory.append(arma1_item)
