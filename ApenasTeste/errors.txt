@@ -2,9 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/scripts/diario/daily.rpy", line 22: Line is indented, but the preceding spacing statement does not expect a block. Please check this line's indentation.
-    label "Willian" xalign 0.5
+File "game/scripts/diario/daily.rpy", line 18: expected a keyword argument or child statement.
+(Perhaps you left out a ' at the end of the first line.)
+    '''vbox:
     ^
+                textbutton "Pagina1":
+                    ShowMenu("daily_screen1")'''
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov  3 20:56:08 2021
+Fri Nov  5 14:47:34 2021
