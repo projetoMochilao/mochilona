@@ -27,7 +27,6 @@ image right_arrow = "images/diario/rightArrow.png"
 label start:
     scene america1
     show screen relogio
-    play music "../audio/Music2.mp3"
 
     # parte_inventário
     $inventory.append(arma1_item)
@@ -36,14 +35,10 @@ label start:
     $inventory.append(faca_item)
     $inventory.append(escudo_item)
     $inventory.append(espada_item)
-     
     
-    "Test"
-
-    call screen gameUI
+    show screen gameUI
 
     call screen mapa
-
     if _return == "Brasil":
         jump cena1
     
@@ -52,8 +47,10 @@ label start:
 
     elif _return == "Argentina":
         jump cena3
-
-
+    
+    show screen gameUI
+    
+    "Test"
     
 label cena1:
 
@@ -67,13 +64,6 @@ label cena1:
                 $horas = 0
     jump cena4
 
-
-
-
-
-
-
-
 label cena2:
 
     scene ruas
@@ -85,15 +75,6 @@ label cena2:
             if (horas >= 24):
                 $horas = 0
     jump cena5
-
-
-
-
-
-
-
-
-
 
 label cena3:
 
@@ -107,15 +88,6 @@ label cena3:
                 $horas = 0
     jump cena6
 
-
-
-
-
-
-
-
-
-
 label cena4:
 
     scene bg paisagem1
@@ -128,12 +100,6 @@ label cena4:
                 $horas = 0
     jump cena7
 
-
-
-
-
-
-
 label cena5:
 
     scene bg paisagem2
@@ -145,14 +111,6 @@ label cena5:
             if (horas >= 24):
                 $horas = 0
     jump cena7
-
-
-
-
-
-
-
-
 
 label cena6:
 
@@ -169,11 +127,12 @@ label cena6:
 label cena7:
     scene bg paisagem4
     "TESTE - CENA 7"
-    
 
+screen mapa:
+    imagemap:
+        ground "images/Mapa/Botoes.png"
+        #hover - imagem quando o mause esta por cima
 
-
-
-
-
-
+        hotspot(669,254,52,50) action Return("Brasil")
+        hotspot(471,248,53,56) action Return("Chile")
+        hotspot(563,421,53,53) action Return("Argentina")

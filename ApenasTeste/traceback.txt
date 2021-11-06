@@ -1,19 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 After initialization, but before game start.
-  File "game/scripts/diario/daily.rpy", line 12, in prepare_screen
+  File "game/scripts/diario/daily.rpy", line 26, in prepare_screen
     screen daily_screen1:
-  File "game/scripts/diario/daily.rpy", line 12, in prepare
+  File "game/scripts/diario/daily.rpy", line 26, in prepare
     screen daily_screen1:
-  File "game/scripts/diario/daily.rpy", line 17, in prepare
+  File "game/scripts/diario/daily.rpy", line 31, in prepare
     hbox:
-  File "game/scripts/diario/daily.rpy", line 17, in prepare
+  File "game/scripts/diario/daily.rpy", line 31, in prepare
     hbox:
   File "game/scripts/diario/daily.rpy", line 33, in prepare
-    textbutton "Retornar":
+    vbox:
   File "game/scripts/diario/daily.rpy", line 33, in prepare
-    textbutton "Retornar":
-SyntaxError: invalid syntax (daily.rpy, line 34)
+    vbox:
+  File "game/scripts/diario/daily.rpy", line 34, in prepare
+    textbutton "Pagina1":
+  File "game/scripts/diario/daily.rpy", line 34, in prepare
+    textbutton "Pagina1":
+SyntaxError: invalid syntax (daily.rpy, line 35)
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -26,27 +30,31 @@ Full traceback:
     renpy.display.screen.prepare_screens()
   File "renpy/display/screen.py", line 939, in prepare_screens
     s.ast.prepare_screen()
-  File "game/scripts/diario/daily.rpy", line 12, in prepare_screen
+  File "game/scripts/diario/daily.rpy", line 26, in prepare_screen
     screen daily_screen1:
-  File "game/scripts/diario/daily.rpy", line 12, in prepare
+  File "game/scripts/diario/daily.rpy", line 26, in prepare
     screen daily_screen1:
-  File "game/scripts/diario/daily.rpy", line 17, in prepare
+  File "game/scripts/diario/daily.rpy", line 31, in prepare
     hbox:
-  File "game/scripts/diario/daily.rpy", line 17, in prepare
+  File "game/scripts/diario/daily.rpy", line 31, in prepare
     hbox:
   File "game/scripts/diario/daily.rpy", line 33, in prepare
-    textbutton "Retornar":
+    vbox:
   File "game/scripts/diario/daily.rpy", line 33, in prepare
-    textbutton "Retornar":
+    vbox:
+  File "game/scripts/diario/daily.rpy", line 34, in prepare
+    textbutton "Pagina1":
+  File "game/scripts/diario/daily.rpy", line 34, in prepare
+    textbutton "Pagina1":
   File "renpy/pyanalysis.py", line 712, in ast_eval
     return self.ast_eval_literal(expr)[0]
   File "renpy/pyanalysis.py", line 696, in ast_eval_literal
     expr = py_compile(expr, 'eval', ast_node=True)
   File "renpy/python.py", line 835, in py_compile
     raise e
-SyntaxError: invalid syntax (daily.rpy, line 34)
+SyntaxError: invalid syntax (daily.rpy, line 35)
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 ApenasTeste 1.0
-Wed Nov  3 20:53:40 2021
+Fri Nov  5 20:59:20 2021

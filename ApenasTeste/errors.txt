@@ -2,12 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/diario/daily.rpy", line 18: expected a keyword argument or child statement.
-(Perhaps you left out a ' at the end of the first line.)
-    '''vbox:
-    ^
-                textbutton "Pagina1":
-                    ShowMenu("daily_screen1")'''
+File "game/scripts/diario/daily.rpy", line 36: keyword argument u'action' appears more than once in a textbutton statement.
+    action Hide("daily_screen2")
+          ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Nov  5 14:47:34 2021
+Fri Nov  5 21:18:57 2021
