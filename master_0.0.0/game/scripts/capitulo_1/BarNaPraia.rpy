@@ -1,0 +1,3 @@
+label BarNaPraia:
+
+    jump CaminhoDeVolta

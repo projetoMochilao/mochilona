@@ -1,0 +1,3 @@
+label PraiaCancun:
+
+    jump BarNaPraia

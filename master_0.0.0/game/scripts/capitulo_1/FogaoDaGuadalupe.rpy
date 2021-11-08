@@ -1,0 +1,3 @@
+label FogaoDaGuadalupe:
+
+    jump Comendo

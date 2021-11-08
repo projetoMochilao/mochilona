@@ -1,0 +1,3 @@
+label CaminhoDeVolta:
+
+    jump FogaoDaGuadalupe

@@ -1,0 +1,3 @@
+label CentroDeCancun:
+
+    jump ChegadaBienvenidoHostel
