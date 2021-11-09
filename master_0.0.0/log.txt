@@ -1,274 +1,1193 @@
-Wed Nov  3 16:36:08 2021
+Tue Nov  9 00:13:49 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
 Loader init took 0.01s
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_errorhandling.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_shaders.rpymc'
-Loading error handling took 0.11s
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/000atl.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/000namespaces.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/000statements.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/000window.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00accessibility.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00achievement.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_audio.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_control.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_data.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_file.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_menu.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00action_other.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00audio.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00barvalues.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00build.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00compat.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00console.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00defaults.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00definitions.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00director.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00gallery.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00gamemenu.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00gamepad.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00gltest.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00gui.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00iap.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00icon.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00iconbutton.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00images.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00inputvalues.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00keymap.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00layeredimage.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00layout.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00library.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00matrixcolor.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00matrixtransform.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00mixers.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00mousedisplayable.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00musicroom.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00nvl_mode.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00obsolete.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00performance.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00placeholder.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00preferences.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00shaders.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00sideimage.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00splines.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00start.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00style.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00stylepreferences.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00themes.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00touchkeyboard.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00updater.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/00voice.rpyc'
-Loading script took 1.42s
+Loading error handling took 0.01s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 43: end of line expected.
+    if selected_item.value != 0::
+                                ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 17.24s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/screen_preferences.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/classic_joystick_preferences.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/screen_main_menu.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/classic_navigation.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/screen_yesno_prompt.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_layout/screen_load_save.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_developer/developer.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 636, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'A:\\Apps\\Aplicativos\\renpy-7.4.8-sdk/renpy/common/_developer/inspector.rpymc'
-Running init code took 0.14s
-Loading analysis data took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.06s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 108.66s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 135.97s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 61: indentation mismatch.
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 137.59s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 56: Line is indented, but the preceding action statement does not expect a block. Please check this line's indentation.
+    xalign 0.9
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 140.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 61: u'textbutton' is not a keyword argument or valid child for the textbutton statement.
+    textbutton "Retornar":
+              ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 143.83s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 214.76s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 2.44s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 240.54s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 242.32s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 245.54s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 277.42s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 309.27s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.14s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 312.56s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 314.37s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.30s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 344.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 352.44s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 366.21s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.31s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 425.06s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 1.37s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 427.72s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 429.58s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 431.34s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.26s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 436.09s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 458.96s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 462.27s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 477.73s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.01s
+Loading script took 0.12s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 31: u'spacing' is not a keyword argument or valid child for the textbutton statement.
+    textbutton "- [item.img]" action SetVariable("selected_item", item) xalign 0.3 spacing 10
+                                                                                          ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 486.84s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 709.78s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 2.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 62: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 714.42s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 63: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 719.08s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
@@ -279,13 +1198,1258 @@ Initial gc. took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 720.82s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 60: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 725.47s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 61: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 737.70s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 61: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 739.33s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 61: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 742.41s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 62: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 748.52s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 53: u'v' is not a keyword argument or valid child for the hbox statement.
+    v
+     ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 750.15s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 62: Line is indented, but the preceding textbutton statement does not expect a block. Please check this line's indentation.
+    textbutton _("History") action ShowMenu('history')
+    ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 753.25s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 53: vbox expects a non-empty block.
+    vbox:
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 754.88s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 54: vbox expects a non-empty block.
+    vbox:
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 759.51s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 54: vbox expects a non-empty block.
+    vbox:
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 761.13s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 54: vbox expects a non-empty block.
+    vbox:
+         ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 762.79s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 66: indentation mismatch.
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 765.92s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
 Creating interface object took 0.30s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.07s
-Prepare screens took 0.11s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.07s
-Save bytecode. took 0.03s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 770.75s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 778.55s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 781.81s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.12s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 788.26s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 789.98s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 55: u'x' is not a keyword argument or valid child for the vbox statement.
+    x
+     ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 791.60s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 803.93s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 805.65s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 807.39s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/scripts/mechanics/menu.rpy", line 56: u'y' is not a keyword argument or valid child for the vbox statement.
+    y
+     ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 809.01s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 815.32s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 875.85s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 921.31s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 924.57s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.29s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 926.41s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 931.24s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 940.51s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.13s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.07s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 943.81s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 978.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.23s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.08s
+Save bytecode. took 0.02s
+Running _start took 0.02s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 984.93s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.01s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\willi\\AppData\\Roaming/RenPy/backups\\master_0.0.0':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.10s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce MX230/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 462.31'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
