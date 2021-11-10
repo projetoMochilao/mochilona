@@ -2,6 +2,10 @@
 
 label start:
 
+    $hour = 16
+    $minutes = 00
+    $days = 26
+
     show screen gameUI
 
     scene bg bedroom1

@@ -19,7 +19,7 @@ screen menu_screen:
             spacing 7
 
             # Atributos
-            label "Iara" xalign 0.5
+            label "Iara Rodrigues" xalign 0.5
             label "Atributo1 [pc.atb1]/[pc.max_atb1]" xalign 0.3
             label "Atributo2 [pc.atb2]/[pc.max_atb2]" xalign 0.3
             label "Atributo2 [pc.atb3]/[pc.max_atb3]" xalign 0.3

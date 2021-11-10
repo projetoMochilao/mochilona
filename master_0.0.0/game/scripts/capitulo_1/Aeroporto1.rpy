@@ -1,6 +1,8 @@
 
 label Aeroporto1:
 
+    $minutes = 30
+
     scene bg AirPlane outside
     show Iara yellow happy
     
