@@ -13,10 +13,10 @@ screen menu_screen:
         ymaximum 720
         yminimum 720
         vbox:
-            
+            yalign 0.05
             xmaximum 640
             xminimum 640
-            spacing 7
+            spacing 10
 
             # Atributos
             label "Iara Rodrigues" xalign 0.5
@@ -26,16 +26,18 @@ screen menu_screen:
             label "Atributo3 [pc.atb4]/[pc.max_atb4]" xalign 0.3
 
             # Inventário
-
+            label "ITENS" xalign 0.5 yalign 0.5
             for item in inventory:
                 textbutton "- [item.img]" action SetVariable("selected_item", item) xalign 0.3
             
             vbox:
                 xalign 0.3
                 spacing 10
-                label "Item" xalign 0.5
+                
 
                 if selected_item != None:
+                    label "Item" xalign 0.5
+
                     frame:
                         style "slot"
                         add selected_item.img
@@ -52,13 +54,13 @@ screen menu_screen:
                         textbutton "Descartar" action [RemoveFromSet(inventory, selected_item), SetVariable("selected_item", None)]
 
     vbox:
-        xalign 0.80
+        xalign 0.85
         yalign 0.5
         textbutton _("História") action ShowMenu('history')
         textbutton _("Salvar") action ShowMenu('save')
+        textbutton _("Preferências") action ShowMenu('preferences')
         textbutton _("Q.Save") action QuickSave()
         textbutton _("Q.Load") action QuickLoad()
-        textbutton _("Preferências") action ShowMenu('preferences')
 
 
 
@@ -70,8 +72,14 @@ screen menu_screen:
         
     
 
-    text "{color=#ff0}{size=+20}[days]/[months]/[year] - [hour]:[minutes]{/size}{/color}" xalign 0.95 yalign 0.95
+    text "{color=ffffff}{size=+20}[days]/[months]/[year] - [hour]:[minutes]{/size}{/color}":
+        xalign 0.95 
+        yalign 0.95
 
+    image "images/Capitulo1/Characters/Iara_waving1.png":
+        xalign 0.5 
+        yalign 0.35
+        zoom 1.2
     
 
     textbutton "Retornar":

@@ -1,6 +1,8 @@
 
 label Aeroporto1:
 
+    $daily_page_1 = "Teste"
+    $daily_page_2 = "Teste"
     $minutes = 30
 
     scene bg AirPlane outside

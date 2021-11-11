@@ -1,5 +1,10 @@
 init python:
 
+    daily_page_1 = "????"
+    daily_page_2 = "????"
+
+    
+
     daily_thing = [
         "Pagina 1",
         "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -14,57 +19,46 @@ init python:
 
 screen daily_screen1:
 
-
     add "bg daily"
 
     hbox:
 
         vbox:
-            textbutton "Pagina1":
+            yalign 0.5
+
+            textbutton "Pagina 1":
                 action ToggleScreen("daily_screen1")
-            textbutton "Pagina2":
+            textbutton "Pagina 2":
                 action ToggleScreen("daily_screen2")
-            textbutton "Pagina3":
+            textbutton "Pagina 3":
                 action ToggleScreen("daily_screen3")
-            textbutton "Pagina4":
+            textbutton "Pagina 4":
                 action ToggleScreen("daily_screen4")
             
         vbox:
             xmaximum 550
             xminimum 550
             spacing 20
-            text daily_thing[0] align (0.5, 0.5) xpos 320 ypos 90
+            text daily_page_1:
+                align (0.5, 0.5) 
+                xpos 320 
+                ypos 90 
+                color u'#204ac8'
         
         vbox:
             xmaximum 400
             xminimum 400
-            text daily_thing[1] align (0.5, 0.5) xpos 250 ypos 300
+            text daily_page_2:
+                align (0.5, 0.5)
+                xpos 200 
+                ypos 300
+                color u'#204ac8'
         
                 
     textbutton "Retornar":
         action Return()
         xalign 0.5
         yalign 0.95
-    
-
-#    imagebutton:
-#        action Rollback()
-#        xalign 0.05
-#        yalign 0.5
-#        idle "images/diario/leftArrow.png"
-    
-#    imagebutton:
-#        action ShowMenu("daily_screen2")
-#        xalign 0.95
-#        yalign 0.5
-#        idle "images/diario/rightArrow.png"
-
-        
-
-
-
-
-
 
 
 screen daily_screen2:
@@ -73,44 +67,40 @@ screen daily_screen2:
 
     hbox:
         vbox:
-            textbutton "Pagina1":
+            yalign 0.5
+
+            textbutton "Pagina 1":
                 action ToggleScreen("daily_screen1")
-            textbutton "Pagina2":
+            textbutton "Pagina 2":
                 action ToggleScreen("daily_screen2")
-            textbutton "Pagina3":
+            textbutton "Pagina 3":
                 action ToggleScreen("daily_screen3")
-            textbutton "Pagina4":
+            textbutton "Pagina 4":
                 action ToggleScreen("daily_screen4")
 
         vbox:
             xmaximum 550
             xminimum 550
             spacing 20
-            text daily_thing[2] align (0.5, 0.5) xpos 320 ypos 90
+            text daily_thing[2]:
+                align (0.5, 0.5)
+                xpos 320 
+                ypos 90
+                color u'#204ac8'
         
         vbox:
             xmaximum 400
             xminimum 400
-            text daily_thing[3] align (0.5, 0.5) xpos 250 ypos 300
+            text daily_thing[3]:
+                align (0.5, 0.5) 
+                xpos 200 
+                ypos 300
+                color u'#204ac8'
     
     textbutton "Retornar":
         action Return()
         xalign 0.5
         yalign 0.95
-        
-                
-#    textbutton "Retornar":
-#        action Rollback()
-#        xalign 0.5
-#        yalign 0.95
-    
-#    imagebutton:
-#        action ShowMenu("daily_screen1")
-#        xalign 0.05
-#        yalign 0.5
-#        idle "images/diario/leftArrow.png"
-
-
 
 
 screen daily_screen3:
@@ -121,13 +111,15 @@ screen daily_screen3:
     hbox:
 
         vbox:
-            textbutton "Pagina1":
+            yalign 0.5
+
+            textbutton "Pagina 1":
                 action ToggleScreen("daily_screen1")
-            textbutton "Pagina2":
+            textbutton "Pagina 2":
                 action ToggleScreen("daily_screen2")
-            textbutton "Pagina3":
+            textbutton "Pagina 3":
                 action ToggleScreen("daily_screen3")
-            textbutton "Pagina4":
+            textbutton "Pagina 4":
                 action ToggleScreen("daily_screen4")
 
             
@@ -135,22 +127,26 @@ screen daily_screen3:
             xmaximum 550
             xminimum 550
             spacing 20
-            text daily_thing[4] align (0.5, 0.5) xpos 320 ypos 90
+            text daily_thing[4]:
+                align (0.5, 0.5) 
+                xpos 320 
+                ypos 90
+                color u'#204ac8'
         
         vbox:
             xmaximum 400
             xminimum 400
-            text daily_thing[5] align (0.5, 0.5) xpos 250 ypos 300
+            text daily_thing[5]:
+                align (0.5, 0.5) 
+                xpos 200 
+                ypos 300
+                color u'#204ac8'
         
                 
     textbutton "Retornar":
         action Return()
         xalign 0.5
         yalign 0.95
-
-
-
-
 
 
 screen daily_screen4:
@@ -161,13 +157,15 @@ screen daily_screen4:
     hbox:
 
         vbox:
-            textbutton "Pagina1":
+            yalign 0.5
+
+            textbutton "Pagina 1":
                 action ToggleScreen("daily_screen1")
-            textbutton "Pagina2":
+            textbutton "Pagina 2":
                 action ToggleScreen("daily_screen2")
-            textbutton "Pagina3":
+            textbutton "Pagina 3":
                 action ToggleScreen("daily_screen3")
-            textbutton "Pagina4":
+            textbutton "Pagina 4":
                 action ToggleScreen("daily_screen4")
 
             
@@ -175,12 +173,20 @@ screen daily_screen4:
             xmaximum 550
             xminimum 550
             spacing 20
-            text daily_thing[6] align (0.5, 0.5) xpos 320 ypos 90
+            text daily_thing[6]:
+                align (0.5, 0.5) 
+                xpos 320 
+                ypos 90
+                color u'#204ac8'
         
         vbox:
             xmaximum 400
             xminimum 400
-            text daily_thing[7] align (0.5, 0.5) xpos 250 ypos 300
+            text daily_thing[7]:
+                align (0.5, 0.5) 
+                xpos 200 
+                ypos 300
+                color u'#204ac8'
         
                 
     textbutton "Retornar":
