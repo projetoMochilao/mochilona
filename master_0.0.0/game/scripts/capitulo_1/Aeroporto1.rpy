@@ -1,7 +1,7 @@
 
 label Aeroporto1:
 
-    $daily_page_1 = "Teste"
+    $daily_page_1 = "{font=Maria_lucia.ttf}Teste{/font}"
     $daily_page_2 = "Teste"
     $minutes = 30
 
@@ -18,7 +18,7 @@ label Aeroporto1:
 
     Iracema "Cê sabe como que é em aeroporto, a gente acha que vai dar tempo e…"
 
-    "ode se ver lágrimas se formando nos olhos de Iracema, Iara então abraça sua mãe."
+    "Pode se ver lágrimas se formando nos olhos de Iracema, Iara então abraça sua mãe."
 
     Iara "Mãe, vai ficar tudo certo, eu sei como tomar conta de mim mesma."
 

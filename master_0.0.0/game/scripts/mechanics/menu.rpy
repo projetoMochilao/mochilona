@@ -1,5 +1,5 @@
 style slot:
-    background Frame("squere",0.0)
+    background Frame("images/menu/inventario.png",0.0)
     minimum(80,80)
     maximum(80,80)
     xalign 0.5
