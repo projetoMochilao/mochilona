@@ -16,6 +16,17 @@ label start:
 
     Iracema "Tudo pronto?"
 
+    $daily_page_1_1 = "{font=Maria_lucia.ttf}Nome: Iracema Rodrigues{/font}"
+    $daily_page_1_2 = "{font=Maria_lucia.ttf}Idade: 43{/font}"
+    $daily_page_1_3 = "{font=Maria_lucia.ttf}Altura: 1,58-1,60{/font}"
+    $daily_page_1_4 = "{font=Maria_lucia.ttf}Peso: 56-58kg {/font}"
+    $daily_page_1_5 = "{font=Maria_lucia.ttf}Rosto: mais rechonchudo, circular ou oval{/font}"
+    $daily_page_1_6 = "{font=Maria_lucia.ttf}Cabelos: liso, preto e preso em um coque{/font}"
+    $daily_page_1_7 = "{font=Maria_lucia.ttf}Olhos: castanhos escuros{/font}"
+    $daily_page_1_8 = "{font=Maria_lucia.ttf}Personalidade: Preocupada{/font}"
+    $daily_page_2_1 = "{font=Maria_lucia.ttf}Outros: Jardineira. Levemente acima do peso, sua pele é um pouco mais escura que a de Iara, está com olheiras pois está com ansiedade da filha sair sozinha para um mochilão e por isso tem dificuldade para dormir.{/font}"
+    $daily_page_2_2 = "{font=Maria_lucia.ttf}Roupas: Um par de óculos meia-lua vermelhos, uma camisa amarela, calça jeans, botas marrons.{/font}"
+
     Iara "Sim, está tudo em ordem."
 
     Iracema "Você tem certeza que não esqueceu de nada?"

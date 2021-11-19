@@ -1,5 +1,5 @@
 label FogaoDaGuadalupe:
-
+    
     $minutes = 20
 
     "O restaurante tinha uma aura agradável, o lugar passava uma sensação de aconchego e calma."

@@ -20,6 +20,19 @@ label BarNaPraia:
 
     Desconhecido1 "Que bom que gostou, a propósito, meu nome é Penélope, qual é o seu?"
 
+    $daily_page_3_1 = "{font=Maria_lucia.ttf}Nome: Penélope Sánchez{/font}"
+    $daily_page_3_2 = "{font=Maria_lucia.ttf}Idade: 24{/font}"
+    $daily_page_3_3 = "{font=Maria_lucia.ttf}Altura: 1,65{/font}"
+    $daily_page_3_4 = "{font=Maria_lucia.ttf}Peso: 73 kg {/font}"
+    $daily_page_3_5 = "{font=Maria_lucia.ttf}Rosto: Oval{/font}"
+    $daily_page_3_6 = "{font=Maria_lucia.ttf}Cabelos: Cabelo curto liso\n pintado na parte de atrás{/font}"
+    $daily_page_3_7 = "{font=Maria_lucia.ttf}Olhos: Verdes{/font}"
+    $daily_page_3_8 = "{font=Maria_lucia.ttf}Personalidade: Confiante, Extrovertida \ne Impulsiva{/font}"
+    $daily_page_4_1 = "{font=Maria_lucia.ttf}Outros: Segura de si, fala mais do que devia, sempre tenta animar, tem um sorriso de orelha a orelha pra ela nunca está ruim{/font}"
+    $daily_page_4_2 = "{font=Maria_lucia.ttf}Roupas: praia (maiô com decote em V branco estampado com palmeiras em tom azulado, chapéu de palha grande e com um colar de girassol){/font}"
+    $daily_page_4_3 = "{font=Maria_lucia.ttf}saída a tarde e noite (colar de girassol,vestido de alcinha com um babado na cintura de cor azul maya, com um tênis branco.{/font}"
+    $daily_page_4_4 = "{font=Maria_lucia.ttf}festa (colar de girassol, macaquinho branco aberto com corte em V com uma tamanca branca){/font}"
+
     Iara "Iara, prazer em conhecê-la."
 
     Penelope "Idem, nunca te vi por aqui antes, ta viajando?"

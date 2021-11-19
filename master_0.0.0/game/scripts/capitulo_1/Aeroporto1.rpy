@@ -1,8 +1,6 @@
 
 label Aeroporto1:
 
-    $daily_page_1 = "{font=Maria_lucia.ttf}Teste{/font}"
-    $daily_page_2 = "Teste"
     $minutes = 30
 
     scene bg AirPlane outside

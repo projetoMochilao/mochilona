@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/images.rpy", line 3: expected 'image_name_component' not found.
-    image menu = "images/menu/inventario.png"
-         ^
+File "game/scripts/capitulo_1/Comendo.rpy", line 7: expected statement.
+    ("A comida estava deliciosa, mesmo nunca provando {$comidaSelecionada} antes, o sabor ainda era familiar.")
+                                                                                                               ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Nov 17 07:25:53 2021
+Thu Nov 18 23:53:42 2021
