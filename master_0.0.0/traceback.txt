@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {$comidaSelecionada} in u'A comida estava deliciosa, mesmo nunca provando {$comidaSelecionada} antes, o sabor ainda era familiar.'.:
-  File "game/scripts/capitulo_1/Comendo.rpy", line 7, in script
-    "A comida estava deliciosa, mesmo nunca provando {$comidaSelecionada} antes, o sabor ainda era familiar."
-Exception: Unknown text tag u'$comidaSelecionada'
+While loading <'Image' u'images/menu/botao.png'>:
+  File "game/script.rpy", line 30, in script
+    Iara "Sim, está tudo em ordem."
+IOError: Couldn't find file 'images/menu/botao.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/capitulo_1/Comendo.rpy", line 7, in script
-    "A comida estava deliciosa, mesmo nunca provando {$comidaSelecionada} antes, o sabor ainda era familiar."
+  File "game/script.rpy", line 30, in script
+    Iara "Sim, está tudo em ordem."
   File "renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1417, in say
@@ -34,6 +34,10 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transition.py", line 360, in render
+    return render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
   File "renpy/display/layout.py", line 814, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
@@ -50,19 +54,21 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/behavior.py", line 791, in render
+    rv = super(Button, self).render(width, height, st, at)
   File "renpy/display/layout.py", line 1238, in render
     st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/text/text.py", line 2060, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "renpy/text/text.py", line 610, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "renpy/text/text.py", line 1240, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag u'$comidaSelecionada'
+  File "renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/menu/botao.png'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 Mochilona 1.0
-Thu Nov 18 23:52:13 2021
+Tue Nov 23 19:11:36 2021

@@ -18,15 +18,8 @@ screen menu_screen:
             xminimum 640
             spacing 10
 
-            # Atributos
-            label "Iara Rodrigues" xalign 0.5
-            label "Atributo1 [pc.atb1]/[pc.max_atb1]" xalign 0.3
-            label "Atributo2 [pc.atb2]/[pc.max_atb2]" xalign 0.3
-            label "Atributo2 [pc.atb3]/[pc.max_atb3]" xalign 0.3
-            label "Atributo3 [pc.atb4]/[pc.max_atb4]" xalign 0.3
-
             # Inventário
-            label "ITENS" xalign 0.5 yalign 0.5
+            label "ITENS" xalign 0.4 yalign 0.5
             for item in inventory:
                 textbutton "- [item.img]" action SetVariable("selected_item", item) xalign 0.3
             
@@ -47,8 +40,6 @@ screen menu_screen:
                     if selected_item.value != 0:
                         label "Valor [selected_item.value]"
                     
-                    if isinstance(selected_item, Consumable):
-                        textbutton "Usar" action Function(selected_item.use, pc)
                     
                     if not isinstance(selected_item, KeyItem):
                         textbutton "Descartar" action [RemoveFromSet(inventory, selected_item), SetVariable("selected_item", None)]
