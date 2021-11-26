@@ -12,7 +12,7 @@ label start:
     show Iara yellow happy
     play music "music/music_rain.mp3"
 
-    "Iara coloca sua mochila no banco de traz do carro de sua mãe"
+    "Iara coloca sua mochila no banco de trás do carro de sua mãe"
 
     Iracema "Tudo pronto?"
 
@@ -41,10 +41,10 @@ label start:
 
     Iracema "Certo, certo. Me desculpa."
 
-    Iracema "É que eu to meio nervosa, só isso."
+    Iracema "É que eu tô meio nervosa, só isso."
 
-    Iara "Mãe, eu já te falei, não precisa se preocupar, eu vou ficar bem"
+    Iara "Mãe, eu já te falei, não precisa se preocupar, eu vou ficar bem."
 
-    "As duas entram no carro e vão em direção ao aeroporto de Florianópolis, durante a viagem as duas ficam em silêncio, o único som sendo o rádio tocando."
+    "As duas entram no carro e vão em direção ao aeroporto de Florianópolis, durante a viagem as duas ficam em silêncio, o único som sendo o rádio tocando"
 
     jump Aeroporto1

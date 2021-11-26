@@ -1,8 +1,3 @@
-
-default inventory = []
-default selected_item = None
-default pc = Player(10, 10, 10, 10)
-
 define Barman = Character("Barman")
 define Funcionario = Character("Funcionário")
 define Garcom = Character("Garçom")

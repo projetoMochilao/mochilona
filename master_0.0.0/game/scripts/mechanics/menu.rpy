@@ -1,8 +1,3 @@
-style slot:
-    background Frame("images/menu/inventario.png",0.0)
-    minimum(80,80)
-    maximum(80,80)
-    xalign 0.5
 
 screen menu_screen:
     style_prefix "menu"
@@ -18,46 +13,20 @@ screen menu_screen:
             xminimum 640
             spacing 10
 
-            # Inventário
-            label "ITENS" xalign 0.4 yalign 0.5
-            for item in inventory:
-                textbutton "- [item.img]" action SetVariable("selected_item", item) xalign 0.3
-            
-            vbox:
-                xalign 0.3
-                spacing 10
-                
-
-                if selected_item != None:
-                    label "Item" xalign 0.5
-
-                    frame:
-                        style "slot"
-                        add selected_item.img
-                    
-                    label "[selected_item.img]"
-
-                    if selected_item.value != 0:
-                        label "Valor [selected_item.value]"
-                    
-                    
-                    if not isinstance(selected_item, KeyItem):
-                        textbutton "Descartar" action [RemoveFromSet(inventory, selected_item), SetVariable("selected_item", None)]
-
     vbox:
-        xalign 0.85
+        xalign 0.1
         yalign 0.5
         textbutton _("História") action ShowMenu('history')
         textbutton _("Salvar") action ShowMenu('save')
         textbutton _("Preferências") action ShowMenu('preferences')
-        textbutton _("Q.Save") action QuickSave()
-        textbutton _("Q.Load") action QuickLoad()
+        textbutton _("Salvar rápido") action QuickSave()
+        textbutton _("Carregar rápido") action QuickLoad()
 
 
 
     textbutton "Diario":
         action ShowMenu("daily_screen1")
-        xalign 0.8
+        xalign 0.1
         yalign 0.1
     
         
