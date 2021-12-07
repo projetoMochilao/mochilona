@@ -6,4 +6,6 @@ define Iracema = Character("Iracema")
 define Penelope = Character("Penélope")
 define Recepcionista = Character("Recepcionista")
 define Desconhecido1 = Character("???")
-
+define Crianca = Character("Criança")
+define Davi = Character("Davi")
+define PaiDoDavi = Character("Pai do Davi")

@@ -2,11 +2,16 @@ label IndoAoMonumento:
 
     Penelope "Certo, vamos lá então, o Monumento não é muito longe daqui."
 
-    "Saindo do hostel, ambas começam a ir em direção ao Monumento, passando pela Avenida Tulum, Iara finalmente pode prestar atenção na famosa avenida. As lojas e construções,feirinhas de ruas e carrinhos de comida. Tudo era tão parecido com o Brasil."
+    "Saindo do hostel, ambas começam a ir em direção ao Monumento, passando pela Avenida Tulum."
 
-    "Caminhando pela sombra das árvores ao redor da rodovia, tudo era tão tranquilo e calmo, o tempo parecia voar."
+    "Finalmente, Iara pode prestar atenção na famosa avenida."
 
-    "Antes mesmo que Iara notasse, elas haviam chegado ao Monumento a la historia de México."
+    "As lojas, as construções, as feirinhas de rua e os carrinhos de comida. Tudo era tão parecido com o Brasil!"
+
+    "Caminhando pela sombra das árvores ao redor da rodovia, tudo era tão tranquilo e calmo, o tempo parecia parar."
+
+    "Sem perceber o tempo passar, Penélope e Iara chegam no seu destino."
+
 
     $daily_page_9_1 = "{font=Maria_lucia.ttf}Nome do lugar: \nMonumento a la Historia de México{/font}"
     $daily_page_9_2 = "{font=Maria_lucia.ttf}Porque Iara está lá: Passeando com Penélope{/font}"
@@ -15,4 +20,4 @@ label IndoAoMonumento:
     $daily_page_9_5 = "{font=Maria_lucia.ttf}Sensação do lugar: calmo e tranquilo{/font}"
     $daily_page_9_6 = "{font=Maria_lucia.ttf}Específico: Poucas pessoas vão lá{/font}"
 
-    return
+    jump MonumentoALaHistoriaDeMexico

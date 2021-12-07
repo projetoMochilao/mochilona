@@ -29,9 +29,17 @@ label BienvenidoHostel2:
 
     "Iara desce para o saguão, e se senta no lobby, após alguns minutos Penélope chega no hostel."
 
-    Penelope "Eae, bem, tem um shopping aqui perto que é bem legal, mas dá tempo de irmos em outro lugar antes."
+    "Como tudo o que lhe resta é esperar, Iara se senta na recepção do hostel."
 
-    Penelope "Eu sei de dois aqui por perto, o Monumento a la historia de México e o El Crucero Park, onde você quer ir?"
+    "O rádio tocava uma boa música."
+
+    Penelope "Eae, cheguei!"
+
+    Iara "Oi! Que rápido!"
+
+    Penelope "Era pertinho! Então, tem um shopping aqui perto que é bem legal, mas dá tempo de irmos em outro lugar antes."
+
+    Penelope "Eu sei de dois aqui por perto, o Monumento a la historia de México e o El Crucero Park. Onde você quer ir?"
 
     menu:
         "Monumento a la historia de México":
